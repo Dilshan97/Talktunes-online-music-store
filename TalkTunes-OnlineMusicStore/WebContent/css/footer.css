@@ -1,0 +1,165 @@
+
+    
+    .footer{
+      width: 1349px;
+      /*background-color: #3C3C3C;*/
+      background-color: #1a1a1a;
+      overflow: auto;
+      margin: 0;
+      padding: 0;
+      margin-top:700px;
+
+    }
+    .homecol{
+      width: 420px;
+      float: left;
+      height: 250px;
+      /* background: #ffffffff; */
+      margin-left: 15px;
+      font-family: monospace;
+
+    }
+    .homecol label{
+      color: #fff;
+      margin:30px 0 0 150px;
+    }
+
+    .homecol form{
+      margin-left: 25px;
+    }
+
+    .homecol input[type=email]{
+      width: 81%;
+      padding: 8px;
+      margin-bottom: 10px;
+      font-family: sans-serif;
+      padding-left: 10px; 
+      background: #252525;
+      border-style: none;
+      color: #9C9C9C;
+      transition: 1s;
+    }
+
+    .homecol textarea{
+      width: 328px;
+      font-family: sans-serif;
+      padding: 10px 0 0 10px;
+      background: #252525;
+      border-style: none;
+      color: #9C9C9C;
+      transition: 1s;
+      margin-bottom:20px;
+    }
+
+    .homecol input[type=submit]{
+      float: right;
+      margin-right: 60px;
+      padding: 10px 20px 10px 20px;
+      background: #1DB954;
+      border-style: none;
+      color: #fff;
+      font-weight: bold;
+      font-family: sans-serif;
+      
+    }
+
+    .homecol input[type=submit]:hover{
+      background: #000000;
+      color: #fff;
+      transition: 0.8s;
+    }
+
+    
+    .social img{
+      width: 35px;
+      margin-left: 25px;
+      transition: transform .2s; /* Animation */
+    }
+    
+    .social img:hover{
+      transform: scale(1.4);
+    }
+    .icon_name {
+      padding-top: 7px;
+      float: right;
+      color: #9C9C9C;
+      font-size: 14px;
+    }
+    
+    #fb{padding-right: 195px;}
+    #tw{padding-right: 185px;}
+    #in{padding-right: 170px;}
+    #you{padding-right: 160px;}
+
+    #fb:hover{color: #3E64A4; transition: 1s;}
+    #tw:hover{color: #2BBADE; transition: 1s;}
+    #in:hover{color: #9D6854; transition: 1s;}
+    #you:hover{color: #CA4638; transition: 1s;}
+
+    .contact{
+      margin-left: 25px;
+    }
+
+    .contact img{
+      width: 35px;
+      margin-right: 2px;
+      transition: transform .2s; /* Animation */
+    }
+
+    .contact img:hover{
+      transform: scale(1.5);
+    }
+
+    .contact p{
+      color: #9C9C9C;
+      font-size: 14px;
+      padding-bottom: 
+    }
+
+    #con{
+      margin-bottom: 3px;
+    }
+
+    #text{
+      float: right;
+      margin-top: 10px;
+      margin-right: 190px;
+      font-family: monospace; 
+      font-weight: 300;
+      font-size: 14px;
+
+    }
+
+    .copyright p{
+      margin-left: 25px;
+      margin-top: 15px;
+      color: #9C9C9C;
+      font-size: 12px;
+      margin-bottom: 6px;
+    }
+
+    .copyright p a{
+      text-decoration: none;
+      color: #1DB954;
+    }
+
+    .copyright p a:hover{
+      color: #fff;
+      transition: 1s;
+    }
+    .copyright hr{
+      display: block;
+      margin-top: 40px;
+      width: 1300px;
+      border: none;
+      height: 0.9px;
+      background-color: #9C9C9C;
+    }
+    
+    .copyright img{
+    	width: 150px;
+    	margin-left: 1000px;
+    	margin-top: -25px;
+    }
+
+    

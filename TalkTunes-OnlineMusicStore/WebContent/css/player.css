@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+
+#audio-player {
+	margin-top: 25px;
+    height: 50px;
+    width: 400px;
+    overflow: hidden;
+    background-color: #1DB954;
+    color: #1DB954;
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none;    /* mozilla browsers */
+    -khtml-user-select: none;  /* webkit (konqueror) browsers */
+    -ms-user-select: none;     /* IE10+ */
+}
+
+#controls {
+    height: 50px;
+    background-color: #808080;
+    width: 400px;
+}
+
+.time {
+    font-size: 10px;
+    color: white;
+    position: relative;
+    top: 14px;
+    margin: 5px;
+}
+
+.ui-progressbar {
+    background: #1DB954;
+}
+
+.ui-progressbar-value {
+    background: #1DB954;
+}
+
+#progressbar, #volume {
+    height: 10px;
+    display: inline-block;
+    border-radius: 0px;
+    border: none;
+    position: relative;
+    top: 16px;
+}
+
+#progressbar {
+    width: 150px;
+    color: #1DB954;
+}
+
+#play, #mute {
+    font-size: 16px;
+    width: 20px;
+    position: relative;
+    top: 17px;
+}
+
+#play {
+    margin-left: 15px;
+}
+
+#volume {
+    width: 50px;
+    color: #1DB954;
+}
+
+#more-info-box {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    left: 350px;
+    top: -50px;
+    padding-top: 18px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #1DB954;
+}
+
+#more-info-box, #more-info-box > span {
+    cursor: context-menu;
+}
+
+#info-tray {
+    display: inline-block;
+    color: white;
+    position: relative;
+    width: 100%;
+    top: -65px;
+    height: 50px;
+    padding: 5px;
+}

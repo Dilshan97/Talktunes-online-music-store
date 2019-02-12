@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+		.songTray{
+			width: 240px;
+			height: 400px;
+			/* background: #5F5E60;  */
+			margin-left: 10px;
+			position: static;
+			/* margin-top: 50px; */
+		}
+		.scol1{
+			/* width: 310px; */
+			width: 220px;
+			height: 220px;
+			background: #fff;
+			margin-left: 10px;
+			float: left;
+			margin-top: 10px;
+			margin-bottom: 8px;
+			/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.55), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 4px;
+
+		}
+
+		button{
+			height: 32px;
+			float: left;
+			margin-left: 10px;
+			width: 80px;
+			background-color: #19B751;
+			border-style: none;
+			border-radius: 4px;
+			color: #fff;
+		}
+
+		 button:hover{
+			background-color: #000000;
+			transition: 1s;
+       }
+
+		.scol1 img{
+			margin: 7px 7px 7px 7px;
+		}
+
+		.scol table{
+			/*background-color: #41423E;*/
+			margin-left: 10px;
+			padding-top: 10px;
+			width: 220px;
+			height: 120px;
+			font-family: 'Roboto', sans-serif;
+		}
+		
+		.scol table tr td{
+			padding-bottom: 6px;
+		}
+		
+		.scol input[type=hidden]{
+			    display:none;
+    			visibility:hidden;
+		}

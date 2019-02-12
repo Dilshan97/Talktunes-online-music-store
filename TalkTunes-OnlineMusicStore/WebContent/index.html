@@ -1,0 +1,122 @@
+<!-- 
+	This code written By Dilshan Ramesh
+	SLIIT - 2 Year | 1 Semester OOP Project
+ -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Talk Tunes | Music for Life</title>
+    <link rel="icon" href="img/storelogo.png">
+	<style>
+		
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding: 0;
+	font-family:monospace;
+}
+.preload{
+	width:100%;
+	height: 100%;
+	background: #0000;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index:1;
+}
+.logo{
+	width: 300px;
+	height: 300px;
+	margin: 100px auto 50px auto;
+	font-size:50px;
+    text-shadow: -1px 2px 2px #000;
+    text-align: center;
+    color:azure;
+}
+.img{
+	width:160px;
+	height: 160px;
+	margin:auto;
+	bottom:-17%;
+	left: 18px;
+	top:16px;
+	position:relative;
+}
+.likeframe{
+	width:200px;
+	height: 100px;
+	margin:auto;
+	bottom:40%;
+	position:relative;
+}
+.like1, .like2{  
+	position: absolute;
+	border:5px solid transparent;
+	border-radius: 50%;
+}
+.like1{
+	width: 200px;
+	height: 200px;
+	border-top: 5px solid #1DB954;
+	border-bottom: 5px solid #1DB954;
+	animation: clockwisespin 2s linear 3;
+}
+.like2{
+	width: 180px;
+	height: 180px;
+	border-left: 5px solid #000;
+	border-right: 5px solid #000;
+	top:7px; left: 7px;
+	animation: anticlockwisespin 2s linear 3;
+}
+@keyframes clockwisespin{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+@keyframes anticlockwisespin{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(-360deg);}
+}
+@keyframes fadeout{
+	from{opacity:1;}
+	to{opacity: 0;}
+}
+	</style>
+</head>
+<body>
+	<div class="preload" id="preload">
+	<div class="logo"></div>
+	<div class="likeframe">
+	<div class="like1" id="like1"></div>
+	<div class="like2" id="like2"></div>
+	<img class="img" src="img/storelogo.png">
+	</div></div>
+
+	<script>
+	
+(function(){
+	var preload=document.getElementById("preload");
+	var loading=0;
+	var id=setInterval(frame,64);
+function frame(){
+	if(loading==100){
+		clearInterval(id);
+		window.open("index.jsp","_self");
+	}else{
+	loading=loading +1;
+	if(loading==90){
+		preload.style.animation="fadeout 1s ease";
+	}
+}
+}
+
+})();
+</script>
+</body>
+</html>   
