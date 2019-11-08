@@ -13,7 +13,7 @@ Administration Section, the admin of the system can monitor and control the whol
  4. View Feedbacks
  5. Summary of the Music store
 
-Technologies
+## Technologies
 
  1. HTML
  2. CSS
@@ -21,4 +21,4 @@ Technologies
  4. JavaEE
  5. MySQL
 
-Demo
+## Demo
